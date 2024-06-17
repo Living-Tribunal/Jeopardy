@@ -22,7 +22,7 @@ $login_error = $_SESSION["login_error"] ?? null;
             <p class="error"><?= $login_error ?></p>
         <?php endif; ?>
     </div>
-    <label id="login_label">Speak, friend then enter.</label><br><br>
+    <label id="login_label">Speak friend, and enter.</label><br><br>
         <form method="POST" action="login.php" id="login">
             <label>Username:</label>
             <input class="password"  type="text" size="50" name="user" placeholder="Enter Your Username">
