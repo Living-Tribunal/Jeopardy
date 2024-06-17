@@ -1,9 +1,4 @@
 <?php
-/*
-* This include file contains functions for handling the login process.
-* These may be called from any page that needs to handle login/logout,
-* or that needs to check whether the user is logged in.
-*/
 
 session_start();
 

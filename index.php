@@ -35,8 +35,8 @@ require_login($logged_in);
                 <th><label class="group" placeholder="Group Name"><?php echo $group_name_two ?></label></th>
             </tr>
             <tr>
-                <td><label id="incg1" class="score" contenteditable="true">0</label></td>
-                <td><label id="incg2" class="score" contenteditable="true">0</label></td>
+                <td><label id="incg1" class="score" contenteditable="true">Enter a score</label></td>
+                <td><label id="incg2" class="score" contenteditable="true">Enter a score</label></td>
             </tr>
         </table>
     </div>

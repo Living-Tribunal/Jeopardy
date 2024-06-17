@@ -109,6 +109,15 @@ CREATE TABLE IF NOT EXISTS column_six (
     answer_five_col_six TEXT NULL
 );
 
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT NOT NULL,
+  password TEXT NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES  
+('admin', 'admin');
+
 INSERT INTO game_title DEFAULT VALUES;
 INSERT INTO column_one DEFAULT VALUES;
 INSERT INTO column_two DEFAULT VALUES;

@@ -114,6 +114,8 @@ try {
         $stmt_update_group_name_two->execute();
       }
 
+      $answer_1000_1 = isset($_POST['answer_1000_1']);
+
       /* <------ updating group one --------> */
 
       if (!empty($group_name_one)) {
