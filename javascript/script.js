@@ -6,12 +6,8 @@ function open_modal_question_200_1() {
 
 function close_modal_question_200_1() {
   document.getElementById("modal_container_200_1").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
-    elements[i].classList.remove("animate__fadeIn");
-  }
-  var elements = document.getElementsByClassName("show_group");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_1");
@@ -25,8 +21,8 @@ function open_modal_question_200_2() {
 
 function close_modal_question_200_2() {
   document.getElementById("modal_container_200_2").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_2");
@@ -40,8 +36,8 @@ function open_modal_question_200_3() {
 
 function close_modal_question_200_3() {
   document.getElementById("modal_container_200_3").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_3");
@@ -55,8 +51,8 @@ function open_modal_question_200_4() {
 
 function close_modal_question_200_4() {
   document.getElementById("modal_container_200_4").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_4");
@@ -70,8 +66,8 @@ function open_modal_question_200_5() {
 
 function close_modal_question_200_5() {
   document.getElementById("modal_container_200_5").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_5");
@@ -85,8 +81,8 @@ function open_modal_question_200_6() {
 
 function close_modal_question_200_6() {
   document.getElementById("modal_container_200_6").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("200_6");
@@ -102,8 +98,8 @@ function open_modal_question_400_1() {
 
 function close_modal_question_400_1() {
   document.getElementById("modal_container_400_1").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_1");
@@ -116,8 +112,8 @@ function open_modal_question_400_2() {
 
 function close_modal_question_400_2() {
   document.getElementById("modal_container_400_2").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_2");
@@ -131,8 +127,8 @@ function open_modal_question_400_3() {
 
 function close_modal_question_400_3() {
   document.getElementById("modal_container_400_3").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_3");
@@ -146,8 +142,8 @@ function open_modal_question_400_4() {
 
 function close_modal_question_400_4() {
   document.getElementById("modal_container_400_4").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_4");
@@ -161,8 +157,8 @@ function open_modal_question_400_5() {
 
 function close_modal_question_400_5() {
   document.getElementById("modal_container_400_5").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_5");
@@ -176,8 +172,8 @@ function open_modal_question_400_6() {
 
 function close_modal_question_400_6() {
   document.getElementById("modal_container_400_6").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("400_6");
@@ -193,8 +189,8 @@ function open_modal_question_600_1() {
 
 function close_modal_question_600_1() {
   document.getElementById("modal_container_600_1").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_1");
@@ -207,8 +203,8 @@ function open_modal_question_600_2() {
 
 function close_modal_question_600_2() {
   document.getElementById("modal_container_600_2").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_2");
@@ -222,8 +218,8 @@ function open_modal_question_600_3() {
 
 function close_modal_question_600_3() {
   document.getElementById("modal_container_600_3").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_3");
@@ -237,8 +233,8 @@ function open_modal_question_600_4() {
 
 function close_modal_question_600_4() {
   document.getElementById("modal_container_600_4").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_4");
@@ -252,8 +248,8 @@ function open_modal_question_600_5() {
 
 function close_modal_question_600_5() {
   document.getElementById("modal_container_600_5").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_5");
@@ -267,8 +263,8 @@ function open_modal_question_600_6() {
 
 function close_modal_question_600_6() {
   document.getElementById("modal_container_600_6").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("600_6");
@@ -284,8 +280,8 @@ function open_modal_question_800_1() {
 
 function close_modal_question_800_1() {
   document.getElementById("modal_container_800_1").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_1");
@@ -298,8 +294,8 @@ function open_modal_question_800_2() {
 
 function close_modal_question_800_2() {
   document.getElementById("modal_container_800_2").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_2");
@@ -313,8 +309,8 @@ function open_modal_question_800_3() {
 
 function close_modal_question_800_3() {
   document.getElementById("modal_container_800_3").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_3");
@@ -328,8 +324,8 @@ function open_modal_question_800_4() {
 
 function close_modal_question_800_4() {
   document.getElementById("modal_container_800_4").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_4");
@@ -343,8 +339,8 @@ function open_modal_question_800_5() {
 
 function close_modal_question_800_5() {
   document.getElementById("modal_container_800_5").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_5");
@@ -358,8 +354,8 @@ function open_modal_question_800_6() {
 
 function close_modal_question_800_6() {
   document.getElementById("modal_container_800_6").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("800_6");
@@ -375,8 +371,8 @@ function open_modal_question_1000_1() {
 
 function close_modal_question_1000_1() {
   document.getElementById("modal_container_1000_1").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("1000_1");
@@ -390,8 +386,8 @@ function open_modal_question_1000_2() {
 
 function close_modal_question_1000_2() {
   document.getElementById("modal_container_1000_2").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("1000_2");
@@ -405,8 +401,8 @@ function open_modal_question_1000_3() {
 
 function close_modal_question_1000_3() {
   document.getElementById("modal_container_1000_3").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("1000_3");
@@ -420,8 +416,8 @@ function open_modal_question_1000_4() {
 
 function close_modal_question_1000_4() {
   document.getElementById("modal_container_1000_4").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("1000_4");
@@ -435,8 +431,8 @@ function open_modal_question_1000_5() {
 
 function close_modal_question_1000_5() {
   document.getElementById("modal_container_1000_5").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn"); // Ensure elements are faded out
   }
   const button = document.getElementById("1000_5");
@@ -450,12 +446,8 @@ function open_modal_question_1000_6() {
 
 function close_modal_question_1000_6() {
   document.getElementById("modal_container_1000_6").style.display = "none";
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
-    elements[i].classList.remove("animate__fadeIn");
-  }
-  var elements = document.getElementsByClassName("show_group");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.remove("animate__fadeIn");
   }
   const button = document.getElementById("1000_6");
@@ -466,12 +458,8 @@ function close_modal_question_1000_6() {
 /* <<<---------- smooth show answer ----------------->>> */
 
 function show_answer() {
-  var elements = document.getElementsByClassName("show_answer");
-  for (var i = 0; i < elements.length; i++) {
-    elements[i].classList.toggle("animate__fadeIn");
-  }
-  var elements = document.getElementsByClassName("show_group");
-  for (var i = 0; i < elements.length; i++) {
+  const elements = document.getElementsByClassName("show_answer");
+  for (const i = 0; i < elements.length; i++) {
     elements[i].classList.toggle("animate__fadeIn");
   }
 }
@@ -480,7 +468,7 @@ function show_answer() {
 
 const group_one_update = document.getElementById("incg1");
 function buttonClick200G1() {
-  var group_one = parseInt(group_one_update.textContent);
+  const group_one = parseInt(group_one_update.textContent);
 
   if (isNaN(group_one)) {
     group_one = 0;
@@ -491,7 +479,7 @@ function buttonClick200G1() {
 }
 
 function buttonClick400G1() {
-  var group_one = parseInt(group_one_update.textContent);
+  const group_one = parseInt(group_one_update.textContent);
 
   if (isNaN(group_one)) {
     group_one = 0;
@@ -501,7 +489,7 @@ function buttonClick400G1() {
   group_one_update.textContent = group_one;
 }
 function buttonClick600G1() {
-  var group_one = parseInt(group_one_update.textContent);
+  const group_one = parseInt(group_one_update.textContent);
 
   if (isNaN(group_one)) {
     group_one = 0;
@@ -512,7 +500,7 @@ function buttonClick600G1() {
 }
 
 function buttonClick800G1() {
-  var group_one = parseInt(group_one_update.textContent);
+  const group_one = parseInt(group_one_update.textContent);
 
   if (isNaN(group_one)) {
     group_one = 0;
@@ -523,7 +511,7 @@ function buttonClick800G1() {
 }
 
 function buttonClick1000G1() {
-  var group_one = parseInt(group_one_update.textContent);
+  const group_one = parseInt(group_one_update.textContent);
 
   if (isNaN(group_one)) {
     group_one = 0;
@@ -537,7 +525,7 @@ function buttonClick1000G1() {
 
 const group_two_update = document.getElementById("incg2");
 function buttonClick200G2() {
-  var group_two = parseInt(group_two_update.textContent);
+  const group_two = parseInt(group_two_update.textContent);
 
   if (isNaN(group_two)) {
     group_two = 0;
@@ -548,7 +536,7 @@ function buttonClick200G2() {
 }
 
 function buttonClick400G2() {
-  var group_two = parseInt(group_two_update.textContent);
+  const group_two = parseInt(group_two_update.textContent);
 
   if (isNaN(group_two)) {
     group_two = 0;
@@ -558,7 +546,7 @@ function buttonClick400G2() {
   group_two_update.textContent = group_two;
 }
 function buttonClick600G2() {
-  var group_two = parseInt(group_two_update.textContent);
+  const group_two = parseInt(group_two_update.textContent);
 
   if (isNaN(group_two)) {
     group_two = 0;
@@ -569,7 +557,7 @@ function buttonClick600G2() {
 }
 
 function buttonClick800G2() {
-  var group_two = parseInt(group_two_update.textContent);
+  const group_two = parseInt(group_two_update.textContent);
 
   if (isNaN(group_two)) {
     group_two = 0;
@@ -580,7 +568,7 @@ function buttonClick800G2() {
 }
 
 function buttonClick1000G2() {
-  var group_two = parseInt(group_two_update.textContent);
+  const group_two = parseInt(group_two_update.textContent);
 
   if (isNaN(group_two)) {
     group_two = 0;
