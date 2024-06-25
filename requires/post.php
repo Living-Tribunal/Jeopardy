@@ -548,9 +548,9 @@ try {
       }
   
       if (!empty($question_1000_3)) {
-        $sql_update_question_three = "UPDATE column_three SET question_five_col_three = :answer_1000_3 WHERE id = 1";
+        $sql_update_question_three = "UPDATE column_three SET question_five_col_three = :question_1000_3 WHERE id = 1";
         $stmt_update_question_three = $db->prepare($sql_update_question_three);
-        $stmt_update_question_three->bindParam(':answer_1000_3', $answer_1000_3, PDO::PARAM_STR);
+        $stmt_update_question_three->bindParam(':question_1000_3', $question_1000_3, PDO::PARAM_STR);
         $stmt_update_question_three->execute();
       }
   

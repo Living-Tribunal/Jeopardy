@@ -66,10 +66,10 @@ require_login($logged_in);
               <form id="modal_input" method="post">
                 <div class="modal_question_container">
                   <label id="modal_question" for="modal_question">Enter your Question</label>
-                  <textarea class="modal_question" name="question_200_1" placeholder="Enter your Question" rows="4"
+                  <textarea class="modal_question" name="question_200_1" placeholder="<?php echo $question_200_1?>" rows="4"
                     cols="50"></textarea>
                   <label id="modal_question" for="modal_question">Enter your Answer</label>
-                  <textarea class="modal_question" name="answer_200_1" placeholder="Enter your Answer" rows="4"
+                  <textarea class="modal_question" name="answer_200_1" placeholder="<?php echo $answer_200_1?>" rows="4"
                     cols="50"></textarea>
                 </div>
                 <button class="save" type="submit">Save</button>
@@ -85,10 +85,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_200_2" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_200_2" placeholder="<?php echo $question_200_2?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_200_2" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_200_2" placeholder="<?php echo $answer_200_2?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -104,10 +104,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_200_3" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_200_3" placeholder="<?php echo $question_200_3?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_200_3" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_200_3" placeholder="<?php echo $answer_200_3?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -123,10 +123,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_200_4" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_200_4" placeholder="<?php echo $question_200_4?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_200_4" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_200_4" placeholder="<?php echo $answer_200_4?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -142,10 +142,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_200_5" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_200_5" placeholder="<?php echo $question_200_5?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_200_5" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_200_5" placeholder="<?php echo $answer_200_5?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -161,10 +161,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_200_6" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_200_6" placeholder="<?php echo $question_200_6 ?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_200_6" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_200_6" placeholder="<?php echo $answer_200_6?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -201,10 +201,10 @@ require_login($logged_in);
               <form id="modal_input" method="post">
                 <div class="modal_question_container">
                   <label id="modal_question" for="modal_question">Enter your Question</label>
-                  <textarea class="modal_question" name="question_400_1" placeholder="Enter your Question" rows="4"
+                  <textarea class="modal_question" name="question_400_1" placeholder="<?php echo $question_400_1?>" rows="4"
                     cols="50"></textarea>
                   <label id="modal_question" for="modal_question">Enter your Answer</label>
-                  <textarea class="modal_question" name="answer_400_1" placeholder="Enter your Answer" rows="4"
+                  <textarea class="modal_question" name="answer_400_1" placeholder="<?php echo $answer_400_1?>" rows="4"
                     cols="50"></textarea>
                 </div>
                 <button class="save" type="submit">Save</button>
@@ -220,10 +220,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_400_2" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_400_2" placeholder="<?php echo $question_400_2?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_400_2" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_400_2" placeholder="<?php echo $answer_400_2?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -239,10 +239,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_400_3" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_400_3" placeholder="<?php echo $question_400_3?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_400_3" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_400_3" placeholder="<?php echo $answer_400_3?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -258,10 +258,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_400_4" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_400_4" placeholder="<?php echo $question_400_4?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_400_4" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_400_4" placeholder="<?php echo $answer_400_4?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -277,10 +277,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_400_5" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_400_5" placeholder="<?php echo $question_400_5?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_400_5" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_400_5" placeholder="<?php echo $answer_400_5?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -296,10 +296,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_400_6" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_400_6" placeholder="<?php echo $question_400_6?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_400_6" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_400_6" placeholder="<?php echo $answer_400_6?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -336,10 +336,10 @@ require_login($logged_in);
               <form id="modal_input" method="post">
                 <div class="modal_question_container">
                   <label id="modal_question" for="modal_question">Enter your Question</label>
-                  <textarea class="modal_question" name="question_600_1" placeholder="Enter your Question" rows="4"
+                  <textarea class="modal_question" name="question_600_1" placeholder="<?php echo $question_600_1?>" rows="4"
                     cols="50"></textarea>
                   <label id="modal_question" for="modal_question">Enter your Answer</label>
-                  <textarea class="modal_question" name="answer_600_1" placeholder="Enter your Answer" rows="4"
+                  <textarea class="modal_question" name="answer_600_1" placeholder="<?php echo $answer_600_1?>" rows="4"
                     cols="50"></textarea>
                 </div>
                 <button class="save" type="submit">Save</button>
@@ -355,10 +355,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question?</label>
-                <textarea class="modal_question" name="question_600_2" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_600_2" placeholder="<?php echo $question_600_2?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer?</label>
-                <textarea class="modal_question" name="answer_600_2" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_600_2" placeholder="<?php echo $answer_600_2?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -374,10 +374,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_600_3" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_600_3" placeholder="<?php echo $question_600_3?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_600_3" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_600_3" placeholder="<?php echo $answer_600_3?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -393,10 +393,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_600_4" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_600_4" placeholder="<?php echo $question_600_4?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_600_4" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_600_4" placeholder="<?php echo $answer_600_4?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -412,10 +412,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_600_5" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_600_5" placeholder="<?php echo $question_600_5?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_600_5" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_600_5" placeholder="<?php echo $answer_600_5?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -431,10 +431,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_600_6" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_600_6" placeholder="<?php echo $question_600_6?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_600_6" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_600_6" placeholder="<?php echo $answer_600_6?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -469,10 +469,10 @@ require_login($logged_in);
               <form id="modal_input" method="post">
                 <div class="modal_question_container">
                   <label id="modal_question" for="modal_question">Enter your Question</label>
-                  <textarea class="modal_question" name="question_800_1" placeholder="Enter your Question" rows="4"
+                  <textarea class="modal_question" name="question_800_1" placeholder="<?php echo $question_800_1?>" rows="4"
                     cols="50"></textarea>
                   <label id="modal_question" for="modal_question">Enter your Answer</label>
-                  <textarea class="modal_question" name="answer_800_1" placeholder="Enter your Answer" rows="4"
+                  <textarea class="modal_question" name="answer_800_1" placeholder="<?php echo $answer_800_1?>" rows="4"
                     cols="50"></textarea>
                 </div>
                 <button class="save" type="submit">Save</button>
@@ -488,10 +488,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_800_2" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_800_2" placeholder="<?php echo $question_800_2?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_800_2" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_800_2" placeholder="<?php echo $answer_800_2?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -507,10 +507,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_800_3" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_800_3" placeholder="<?php echo $question_800_3?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_800_3" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_800_3" placeholder="<?php echo $answer_800_3?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -526,10 +526,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_800_4" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_800_4" placeholder="<?php echo $question_800_4?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_800_4" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_800_4" placeholder="<?php echo $answer_800_4?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -545,10 +545,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_800_5" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_800_5" placeholder="<?php echo $question_800_5?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_800_5" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_800_5" placeholder="<?php echo $answer_800_5?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -564,10 +564,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_800_6" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_800_6" placeholder="<?php echo $question_800_6?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_800_6" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_800_6" placeholder="<?php echo $answer_800_6?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -603,10 +603,10 @@ require_login($logged_in);
               <form id="modal_input" method="post">
                 <div class="modal_question_container">
                   <label id="modal_question" for="modal_question">Enter your Question</label>
-                  <textarea class="modal_question" name="question_1000_1" placeholder="Enter your Question" rows="4"
+                  <textarea class="modal_question" name="question_1000_1" placeholder="<?php echo $question_1000_1?>" rows="4"
                     cols="50"></textarea>
                   <label id="modal_question" for="modal_question">Enter your Answer</label>
-                  <textarea class="modal_question" name="answer_1000_1" placeholder="Enter your Answer" rows="4"
+                  <textarea class="modal_question" name="answer_1000_1" placeholder="<?php echo $answer_1000_1?>" rows="4"
                     cols="50"></textarea>
                 </div>
                 <button class="save" type="submit">Save</button>
@@ -622,10 +622,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_1000_2" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_1000_2" placeholder="<?php echo $question_1000_2?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_1000_2" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_1000_2" placeholder="<?php echo $answer_1000_2?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -641,10 +641,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_1000_3" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_1000_3" placeholder="<?php echo $question_1000_3?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_1000_3" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_1000_3" placeholder="<?php echo $answer_1000_3?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -660,10 +660,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_1000_4" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_1000_4" placeholder="<?php echo $question_1000_4?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_1000_4" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_1000_4" placeholder="<?php echo $answer_1000_4?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -679,10 +679,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_1000_5" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_1000_5" placeholder="<?php echo $question_1000_5?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_1000_5" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_1000_5" placeholder="<?php echo $answer_1000_5?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
@@ -698,10 +698,10 @@ require_login($logged_in);
             <form id="modal_input" method="post">
               <div class="modal_question_container">
                 <label id="modal_question" for="modal_question">Enter your Question</label>
-                <textarea class="modal_question" name="question_1000_6" placeholder="Enter your Question" rows="4"
+                <textarea class="modal_question" name="question_1000_6" placeholder="<?php echo $question_1000_6?>" rows="4"
                   cols="50"></textarea>
                 <label id="modal_question" for="modal_question">Enter your Answer</label>
-                <textarea class="modal_question" name="answer_1000_6" placeholder="Enter your Answer" rows="4"
+                <textarea class="modal_question" name="answer_1000_6" placeholder="<?php echo $answer_1000_6?>" rows="4"
                   cols="50"></textarea>
               </div>
               <button class="save" type="submit">Save</button>
